@@ -1,0 +1,62 @@
+﻿@model BookingViewModel
+@{
+    ViewData["Title"] = "Update Booking";
+}
+
+<div class="container mt-4">
+    <h2>✏️ Update Booking</h2>
+
+    @if (ViewBag.Error != null)
+    {
+        <div class="alert alert-danger">@ViewBag.Error</div>
+    }
+
+    <form asp-action="EditBooking" method="post">
+        @Html.HiddenFor(m => m.Id)
+
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label asp-for="UserId" class="form-label"></label>
+                <input asp-for="UserId" class="form-control" />
+            </div>
+
+            <div class="col-md-6 mb-3">
+                <label asp-for="RoomId" class="form-label"></label>
+                <input asp-for="RoomId" class="form-control" />
+            </div>
+
+            <div class="col-md-6 mb-3">
+                <label asp-for="CheckInDate" class="form-label"></label>
+                <input asp-for="CheckInDate" type="date" class="form-control" />
+            </div>
+
+            <div class="col-md-6 mb-3">
+                <label asp-for="CheckOutDate" class="form-label"></label>
+                <input asp-for="CheckOutDate" type="date" class="form-control" />
+            </div>
+
+            <div class="col-md-6 mb-3">
+                <label asp-for="NumberOfGuests" class="form-label"></label>
+                <input asp-for="NumberOfGuests" class="form-control" />
+            </div>
+
+            <div class="col-md-6 mb-3">
+                <label asp-for="TotalAmount" class="form-label"></label>
+                <input asp-for="TotalAmount" class="form-control" />
+            </div>
+
+            <div class="col-md-6 mb-3">
+                <label asp-for="Status" class="form-label"></label>
+                <select asp-for="Status" class="form-select">
+                    <option value="Booked">Booked</option>
+                    <option value="Confirmed">Confirmed</option>
+                    <option value="Cancelled">Cancelled</option>
+                </select>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Update</button>
+        <a href="@Url.Action("Bookings", "Admin")" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>
+

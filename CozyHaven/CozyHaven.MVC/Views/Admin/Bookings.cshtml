@@ -1,0 +1,65 @@
+﻿@model List<BookingViewModel>
+@{
+    ViewData["Title"] = "Manage Bookings";
+    var serial = 1;
+}
+
+<div class="container mt-4">
+
+    <!-- 🔵 Page Title & Add Button -->
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2>📋 Booking Management</h2>
+        <a href="@Url.Action("AddBooking", "Admin")" class="btn btn-success btn-lg">
+            ➕ Add Booking
+        </a>
+    </div>
+
+    <!-- 🔴 Error Display (optional) -->
+    @if (ViewBag.Error != null)
+    {
+        <div class="alert alert-danger">@ViewBag.Error</div>
+    }
+
+    <!-- 🟢 Bookings Table -->
+    <table class="table table-hover table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>S.No</th>
+                <th>User ID</th>
+                <th>Room ID</th>
+                <th>Check-In</th>
+                <th>Check-Out</th>
+                <th>Guests</th>
+                <th>Total</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var booking in Model)
+            {
+                <tr>
+                    <td>@serial</td>
+                    @{
+                        serial++;
+                    }
+                    <td>@booking.UserId</td>
+                    <td>@booking.RoomId</td>
+                    <td>@booking.CheckInDate.ToShortDateString()</td>
+                    <td>@booking.CheckOutDate.ToShortDateString()</td>
+                    <td>@booking.NumberOfGuests</td>
+                    <td>₹@booking.TotalAmount</td>
+                    <td>@booking.Status</td>
+                    <td>
+                        <a href="@Url.Action("EditBooking", "Admin", new { id = booking.Id })" class="btn btn-warning btn-sm">Update</a>
+                        <form asp-action="DeleteBooking" method="post" style="display:inline;">
+                            <input type="hidden" name="id" value="@booking.Id" />
+                            <button class="btn btn-danger btn-sm" onclick="return confirm('Delete this booking?');">Delete</button>
+                        </form>
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

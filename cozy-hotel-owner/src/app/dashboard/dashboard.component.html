@@ -1,0 +1,25 @@
+<!-- Top Navbar -->
+<!-- <nav class="navbar">
+  <div class="navbar-brand">🏨 CozyHaven</div>
+  <button class="logout-btn" (click)="logout()">Logout</button>
+</nav> -->
+
+<!-- Dashboard main content -->
+<div class="dashboard-wrapper">
+  <div class="dashboard-card">
+    <h2>Welcome, Hotel Owner</h2>
+
+    <!-- Navigation Buttons (routerLinks stay unchanged) -->
+    <a class="action-btn" routerLink="/profile">🏨 Manage Hotel Profile</a>
+    <a class="action-btn" routerLink="/rooms">🛏️ Manage Rooms</a>
+    <a class="action-btn" routerLink="/bookings">📋 Manage Bookings</a>
+  </div>
+</div>
+
+<!-- Footer -->
+<!-- <footer class="footer">
+  © 2025 - CozyHaven Admin Panel
+</footer> -->
+
+<!-- Routed content appears here -->
+<router-outlet></router-outlet>

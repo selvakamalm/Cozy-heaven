@@ -1,0 +1,103 @@
+<div class="room-center-wrapper">
+  <div class="room-card">
+
+    <h3 class="section-title"><i class="bi bi-door-open"></i> Manage Rooms</h3>
+
+    <!-- Add Room Button -->
+    <button class="btn btn-primary mb-4" (click)="isAddingRoom = true">➕ Add Room</button>
+
+    <!-- Add Room Form -->
+    <div *ngIf="isAddingRoom" class="card p-4 mb-4 shadow-sm">
+      <h5>Add New Room</h5>
+
+      <div class="form-group mb-2">
+        <label>Room Size</label>
+        <input [(ngModel)]="newRoom.roomSize" class="form-control" />
+      </div>
+
+      <div class="form-group mb-2">
+        <label>Bed Type</label>
+        <select [(ngModel)]="newRoom.bedType" class="form-control">
+          <option>Single</option>
+          <option>Double</option>
+          <option>King</option>
+        </select>
+      </div>
+
+      <div class="form-group mb-2">
+        <label>Max Occupancy</label>
+        <input type="number" [(ngModel)]="newRoom.maxOccupancy" class="form-control" />
+      </div>
+
+      <div class="form-group mb-2">
+        <label>Base Fare</label>
+        <input type="number" [(ngModel)]="newRoom.baseFare" class="form-control" />
+      </div>
+
+      <div class="form-check mb-3">
+        <input type="checkbox" [(ngModel)]="newRoom.isAC" class="form-check-input" id="acCheck" />
+        <label for="acCheck" class="form-check-label">Air Conditioned</label>
+      </div>
+
+      <button class="btn btn-success me-2" (click)="submitRoom()">💾 Save</button>
+      <button class="btn btn-secondary" (click)="cancelAddRoom()">❌ Cancel</button>
+    </div>
+
+    <!-- Error Message -->
+    <div *ngIf="errorMessage" class="alert alert-danger">
+      {{ errorMessage }}
+    </div>
+
+    <!-- Room Table -->
+    <div class="table-responsive">
+      <table class="table table-bordered text-center room-table">
+        <thead class="table-dark">
+          <tr>
+            <th>#</th>
+            <th>Room Size</th>
+            <th>Bed Type</th>
+            <th>Occupancy</th>
+            <th>Fare</th>
+            <th>AC</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let room of rooms; let i = index">
+            <ng-container *ngIf="editingRoom?.id === room.id; else viewRow">
+              <td>{{ i + 1 }}</td>
+              <td><input class="form-control" [(ngModel)]="editingRoom.roomSize" /></td>
+              <td>
+                <select class="form-control" [(ngModel)]="editingRoom.bedType">
+                  <option>Single</option>
+                  <option>Double</option>
+                  <option>King</option>
+                </select>
+              </td>
+              <td><input type="number" class="form-control" [(ngModel)]="editingRoom.maxOccupancy" /></td>
+              <td><input type="number" class="form-control" [(ngModel)]="editingRoom.baseFare" /></td>
+              <td><input type="checkbox" [(ngModel)]="editingRoom.isAC" /></td>
+              <td>
+                <button class="btn btn-success btn-sm" (click)="saveRoomChanges()">💾</button>
+                <button class="btn btn-secondary btn-sm" (click)="cancelEdit()">❌</button>
+              </td>
+            </ng-container>
+
+            <ng-template #viewRow>
+              <td>{{ i + 1 }}</td>
+              <td>{{ room.roomSize }}</td>
+              <td>{{ room.bedType }}</td>
+              <td>{{ room.maxOccupancy }}</td>
+              <td>₹{{ room.baseFare }}</td>
+              <td>{{ room.isAC ? '✅' : '❌' }}</td>
+              <td>
+                <button class="btn btn-warning btn-sm me-1" (click)="startEditRoom(room)">✏️</button>
+                <button class="btn btn-danger btn-sm" (click)="deleteRoom(room.id)">🗑️</button>
+              </td>
+            </ng-template>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

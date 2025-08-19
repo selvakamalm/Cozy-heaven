@@ -1,0 +1,23 @@
+<!-- Top Navigation Bar -->
+<nav class="navbar">
+  <div class="navbar-brand">🏨 CozyHaven</div>
+
+  <div class="nav-links">
+    <a routerLink="/user/dashboard" routerLinkActive="active-link">Dashboard</a>
+    <a routerLink="/user/profile" routerLinkActive="active-link">My Profile</a>
+    <a routerLink="/user/search" routerLinkActive="active-link">Search Hotels</a>
+    <a routerLink="/user/bookings" routerLinkActive="active-link">My Bookings</a>
+  </div>
+
+  <button class="logout-btn" (click)="logout()">🚪 Logout</button>
+</nav>
+
+<!-- Main content will render here -->
+<main class="main-container">
+  <router-outlet></router-outlet>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+  © 2025 - CozyHaven User Panel
+</footer>

@@ -1,0 +1,88 @@
+<div class="room-center-wrapper">
+  <div class="room-card">
+    <h3 class="section-title">📚 Manage Bookings</h3>
+
+    <div *ngIf="errorMessage" class="alert alert-danger">{{ errorMessage }}</div>
+
+    <div class="table-responsive">
+      <table class="table table-bordered text-center room-table" *ngIf="bookings.length > 0">
+        <thead class="table-dark">
+          <tr>
+            <th>#</th>
+            <th>Room ID</th>
+            <th>Guests</th>
+            <th>Check-In</th>
+            <th>Check-Out</th>
+            <th>Total</th>
+            <th>Status</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let booking of bookings; let i = index">
+            <td>{{ i + 1 }}</td>
+            <td>{{ booking.roomId }}</td>
+            <td>{{ booking.numberOfGuests }}</td>
+            <td>{{ booking.checkInDate | date: 'MMM d, y' }}</td>
+            <td>{{ booking.checkOutDate | date: 'MMM d, y' }}</td>
+            <td>₹{{ booking.totalAmount }}</td>
+            <td>
+              <span class="custom-badge"
+                [ngClass]="{
+                  'badge-warning': booking.status === 'Pending',
+                  'badge-success': booking.status === 'Confirmed',
+                  'badge-danger': booking.status === 'Cancelled'
+                }">
+                {{ booking.status }}
+              </span>
+            </td>
+            <td>
+              <button class="btn btn-warning btn-sm me-1" (click)="viewDetails(booking)">👁️</button>
+              <button class="btn btn-danger btn-sm" (click)="cancelBooking(booking.id)">❌</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p *ngIf="bookings.length === 0" class="text-muted text-center mt-4">No bookings found.</p>
+
+    <!-- Booking Details Section -->
+    <div *ngIf="selectedBooking" class="card mt-4 p-4 shadow-sm">
+      <h5 class="mb-3">📋 Booking Details</h5>
+
+      <div class="row mb-2">
+        <div class="col"><strong>User:</strong> {{ selectedBooking.user.fullName }}</div>
+        <div class="col"><strong>Email:</strong> {{ selectedBooking.user.email }}</div>
+        <div class="col"><strong>Phone:</strong> {{ selectedBooking.user.contactNumber }}</div>
+      </div>
+
+      <div class="row mb-2">
+        <div class="col"><strong>Room ID:</strong> {{ selectedBooking.roomId }}</div>
+        <div class="col"><strong>Guests:</strong> {{ selectedBooking.numberOfGuests }}</div>
+      </div>
+
+      <div class="row mb-2">
+        <div class="col"><strong>Check-In:</strong> {{ selectedBooking.checkInDate | date: 'MMM d, y' }}</div>
+        <div class="col"><strong>Check-Out:</strong> {{ selectedBooking.checkOutDate | date: 'MMM d, y' }}</div>
+      </div>
+
+      <div class="row mb-3">
+        <div class="col"><strong>Total:</strong> ₹{{ selectedBooking.totalAmount }}</div>
+        <div class="col">
+          <strong>Status:</strong>
+          <span class="custom-badge"
+            [ngClass]="{
+              'badge-warning': selectedBooking.status === 'Pending',
+              'badge-success': selectedBooking.status === 'Confirmed',
+              'badge-danger': selectedBooking.status === 'Cancelled'
+            }">
+            {{ selectedBooking.status }}
+          </span>
+        </div>
+      </div>
+
+      <button class="btn btn-secondary btn-sm" (click)="selectedBooking = null">Close</button>
+    </div>
+  </div>
+</div>

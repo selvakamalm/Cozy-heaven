@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="~/css/dashboard.css" />
+</head>
+<body>
+    <div class="dashboard">
+        <h2>
+            Welcome Admin, @Context.Session.GetString("Username")
+        </h2>
+
+        <div class="nav-links">
+            <a href="@Url.Action("Users", "Admin")">👥 User Management</a>
+            <a href="@Url.Action("Hotels", "Admin")">🏨 Manage Hotels</a>
+            <a href="@Url.Action("Bookings", "Admin")">📋 Manage Bookings</a>
+            <!--<a href="@Url.Action("Logout", "Admin")">🚪 Logout</a>-->
+        </div>
+    </div>
+</body>
+</html>
+
+

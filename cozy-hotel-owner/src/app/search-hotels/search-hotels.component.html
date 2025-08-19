@@ -1,0 +1,84 @@
+<div class="search-container">
+  <h2 class="section-title">🏨 Search Hotels</h2>
+
+  <!-- Search Form -->
+  <form (ngSubmit)="searchHotels()" class="form-area shadow-sm">
+    <div class="form-grid">
+      <div class="form-group">
+        <label for="location">📍 Location</label>
+        <input type="text" id="location" [(ngModel)]="location" name="location" class="form-control" placeholder="Enter city">
+      </div>
+
+      <div class="form-group">
+        <label for="fromDate">📅 Check-In</label>
+        <input type="date" id="fromDate" [(ngModel)]="fromDate" name="fromDate" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label for="toDate">📅 Check-Out</label>
+        <input type="date" id="toDate" [(ngModel)]="toDate" name="toDate" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label for="roomCount">🛏️ Rooms</label>
+        <input type="number" id="roomCount" [(ngModel)]="roomCount" name="roomCount" class="form-control" min="1">
+      </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary w-100 mt-4">🔍 Search Hotels</button>
+  </form>
+
+  <!-- Results -->
+  <div *ngIf="filteredHotels.length > 0" class="hotel-list mt-5">
+    <h4 class="mb-4">🏨 Available Hotels</h4>
+
+    <div *ngFor="let hotel of filteredHotels" class="card hotel-card p-4 mb-4">
+      <h5 class="hotel-name">{{ hotel.name }} <small class="text-muted">({{ hotel.city }})</small></h5>
+      <p class="text-muted mb-2">{{ hotel.address }}</p>
+
+      <div *ngIf="hotel.facilities?.length">
+        <strong>Facilities:</strong>
+        <ul class="facility-list">
+          <li *ngFor="let f of hotel.facilities">{{ f }}</li>
+        </ul>
+      </div>
+
+      <button class="btn btn-success mt-3" (click)="selectHotel(hotel)">➕ Book This Hotel</button>
+    </div>
+  </div>
+
+  <!-- Booking Form -->
+  <div *ngIf="selectedHotel" class="booking-form mt-5">
+    <h4>📝 Booking for {{ selectedHotel.name }}</h4>
+    <form (ngSubmit)="bookHotel()" class="form-area shadow-sm mt-3">
+      <div class="form-grid">
+        <div class="form-group">
+          <label>Number of Guests</label>
+          <input type="number" class="form-control" [(ngModel)]="bookingDetails.numberOfGuests" name="numberOfGuests" min="1">
+        </div>
+
+        <div class="form-group">
+          <label>Room ID</label>
+          <input type="number" class="form-control" [(ngModel)]="bookingDetails.roomId" name="roomId">
+        </div>
+
+        <div class="form-group">
+          <label>Check-In Date</label>
+          <input type="date" class="form-control" [(ngModel)]="bookingDetails.checkInDate" name="checkInDate">
+        </div>
+
+        <div class="form-group">
+          <label>Check-Out Date</label>
+          <input type="date" class="form-control" [(ngModel)]="bookingDetails.checkOutDate" name="checkOutDate">
+        </div>
+
+        <div class="form-group">
+          <label>Total Amount</label>
+          <input type="number" class="form-control" [(ngModel)]="bookingDetails.totalAmount" name="totalAmount" min="0">
+        </div>
+      </div>
+
+      <button class="btn btn-primary mt-4 w-100">✅ Confirm Booking</button>
+    </form>
+  </div>
+</div>

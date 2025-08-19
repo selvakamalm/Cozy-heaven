@@ -1,0 +1,529 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\cozy haven\\CozyHaven\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1D0EFB-23FE-4AB6-B20B-CAE158A43FE5}|DAL\\DAL.csproj|c:\\cozy haven\\cozyhaven\\dal\\dataaccess\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1D0EFB-23FE-4AB6-B20B-CAE158A43FE5}|DAL\\DAL.csproj|solutionrelative:dal\\dataaccess\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1FCCBD1-DBA5-4616-8F8B-7E6E4D8370A1}|ServiceLayer\\ServiceLayer.csproj|c:\\cozy haven\\cozyhaven\\servicelayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1FCCBD1-DBA5-4616-8F8B-7E6E4D8370A1}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1FCCBD1-DBA5-4616-8F8B-7E6E4D8370A1}|ServiceLayer\\ServiceLayer.csproj|c:\\cozy haven\\cozyhaven\\servicelayer\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1FCCBD1-DBA5-4616-8F8B-7E6E4D8370A1}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1D0EFB-23FE-4AB6-B20B-CAE158A43FE5}|DAL\\DAL.csproj|c:\\cozy haven\\cozyhaven\\dal\\dataaccess\\interface\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1D0EFB-23FE-4AB6-B20B-CAE158A43FE5}|DAL\\DAL.csproj|solutionrelative:dal\\dataaccess\\interface\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1D0EFB-23FE-4AB6-B20B-CAE158A43FE5}|DAL\\DAL.csproj|c:\\cozy haven\\cozyhaven\\dal\\context\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1D0EFB-23FE-4AB6-B20B-CAE158A43FE5}|DAL\\DAL.csproj|solutionrelative:dal\\context\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1D0EFB-23FE-4AB6-B20B-CAE158A43FE5}|DAL\\DAL.csproj|c:\\cozy haven\\cozyhaven\\dal\\context\\cozyhavendbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1D0EFB-23FE-4AB6-B20B-CAE158A43FE5}|DAL\\DAL.csproj|solutionrelative:dal\\context\\cozyhavendbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1D0EFB-23FE-4AB6-B20B-CAE158A43FE5}|DAL\\DAL.csproj|c:\\cozy haven\\cozyhaven\\dal\\context\\cozyhavendbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1D0EFB-23FE-4AB6-B20B-CAE158A43FE5}|DAL\\DAL.csproj|solutionrelative:dal\\context\\cozyhavendbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1D0EFB-23FE-4AB6-B20B-CAE158A43FE5}|DAL\\DAL.csproj|c:\\cozy haven\\cozyhaven\\dal\\models\\main\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1D0EFB-23FE-4AB6-B20B-CAE158A43FE5}|DAL\\DAL.csproj|solutionrelative:dal\\models\\main\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{128890D0-99C3-487B-82C2-D64A32BD82E9}|CozyHaven.Tests\\CozyHaven.Tests.csproj|c:\\cozy haven\\cozyhaven\\cozyhaven.tests\\cozyhaven.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{128890D0-99C3-487B-82C2-D64A32BD82E9}|CozyHaven.Tests\\CozyHaven.Tests.csproj|solutionrelative:cozyhaven.tests\\cozyhaven.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{128890D0-99C3-487B-82C2-D64A32BD82E9}|CozyHaven.Tests\\CozyHaven.Tests.csproj|c:\\cozy haven\\cozyhaven\\cozyhaven.tests\\controllers\\bookingcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{128890D0-99C3-487B-82C2-D64A32BD82E9}|CozyHaven.Tests\\CozyHaven.Tests.csproj|solutionrelative:cozyhaven.tests\\controllers\\bookingcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{128890D0-99C3-487B-82C2-D64A32BD82E9}|CozyHaven.Tests\\CozyHaven.Tests.csproj|c:\\cozy haven\\cozyhaven\\cozyhaven.tests\\services\\bookingservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{128890D0-99C3-487B-82C2-D64A32BD82E9}|CozyHaven.Tests\\CozyHaven.Tests.csproj|solutionrelative:cozyhaven.tests\\services\\bookingservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64B99D25-0260-4D5A-9E30-453DC550FE27}|CozyHaven.MVC\\CozyHaven.MVC.csproj|c:\\cozy haven\\cozyhaven\\cozyhaven.mvc\\views\\admin\\addbooking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64B99D25-0260-4D5A-9E30-453DC550FE27}|CozyHaven.MVC\\CozyHaven.MVC.csproj|solutionrelative:cozyhaven.mvc\\views\\admin\\addbooking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64B99D25-0260-4D5A-9E30-453DC550FE27}|CozyHaven.MVC\\CozyHaven.MVC.csproj|c:\\cozy haven\\cozyhaven\\cozyhaven.mvc\\models\\bookingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64B99D25-0260-4D5A-9E30-453DC550FE27}|CozyHaven.MVC\\CozyHaven.MVC.csproj|solutionrelative:cozyhaven.mvc\\models\\bookingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64B99D25-0260-4D5A-9E30-453DC550FE27}|CozyHaven.MVC\\CozyHaven.MVC.csproj|c:\\cozy haven\\cozyhaven\\cozyhaven.mvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64B99D25-0260-4D5A-9E30-453DC550FE27}|CozyHaven.MVC\\CozyHaven.MVC.csproj|solutionrelative:cozyhaven.mvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1FCCBD1-DBA5-4616-8F8B-7E6E4D8370A1}|ServiceLayer\\ServiceLayer.csproj|c:\\cozy haven\\cozyhaven\\servicelayer\\services\\implementation\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1FCCBD1-DBA5-4616-8F8B-7E6E4D8370A1}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\services\\implementation\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1FCCBD1-DBA5-4616-8F8B-7E6E4D8370A1}|ServiceLayer\\ServiceLayer.csproj|c:\\cozy haven\\cozyhaven\\servicelayer\\services\\interfaces\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1FCCBD1-DBA5-4616-8F8B-7E6E4D8370A1}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\services\\interfaces\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1FCCBD1-DBA5-4616-8F8B-7E6E4D8370A1}|ServiceLayer\\ServiceLayer.csproj|c:\\cozy haven\\cozyhaven\\servicelayer\\servicelayer.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{D1FCCBD1-DBA5-4616-8F8B-7E6E4D8370A1}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\servicelayer.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1FCCBD1-DBA5-4616-8F8B-7E6E4D8370A1}|ServiceLayer\\ServiceLayer.csproj|c:\\cozy haven\\cozyhaven\\servicelayer\\services\\interfaces\\ihotelfacilityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1FCCBD1-DBA5-4616-8F8B-7E6E4D8370A1}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\services\\interfaces\\ihotelfacilityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1FCCBD1-DBA5-4616-8F8B-7E6E4D8370A1}|ServiceLayer\\ServiceLayer.csproj|c:\\cozy haven\\cozyhaven\\servicelayer\\services\\bookingbyhotelnamerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1FCCBD1-DBA5-4616-8F8B-7E6E4D8370A1}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\services\\bookingbyhotelnamerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1FCCBD1-DBA5-4616-8F8B-7E6E4D8370A1}|ServiceLayer\\ServiceLayer.csproj|c:\\cozy haven\\cozyhaven\\servicelayer\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1FCCBD1-DBA5-4616-8F8B-7E6E4D8370A1}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1FCCBD1-DBA5-4616-8F8B-7E6E4D8370A1}|ServiceLayer\\ServiceLayer.csproj|c:\\cozy haven\\cozyhaven\\servicelayer\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D1FCCBD1-DBA5-4616-8F8B-7E6E4D8370A1}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1D0EFB-23FE-4AB6-B20B-CAE158A43FE5}|DAL\\DAL.csproj|c:\\cozy haven\\cozyhaven\\dal\\migrations\\cozyhavendbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1D0EFB-23FE-4AB6-B20B-CAE158A43FE5}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\cozyhavendbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1D0EFB-23FE-4AB6-B20B-CAE158A43FE5}|DAL\\DAL.csproj|c:\\cozy haven\\cozyhaven\\dal\\migrations\\20250803143717_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1D0EFB-23FE-4AB6-B20B-CAE158A43FE5}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\20250803143717_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1D0EFB-23FE-4AB6-B20B-CAE158A43FE5}|DAL\\DAL.csproj|c:\\cozy haven\\cozyhaven\\dal\\dataaccess\\interface\\ifacilityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1D0EFB-23FE-4AB6-B20B-CAE158A43FE5}|DAL\\DAL.csproj|solutionrelative:dal\\dataaccess\\interface\\ifacilityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1FCCBD1-DBA5-4616-8F8B-7E6E4D8370A1}|ServiceLayer\\ServiceLayer.csproj|c:\\cozy haven\\cozyhaven\\servicelayer\\servicelayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D1FCCBD1-DBA5-4616-8F8B-7E6E4D8370A1}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\servicelayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64B99D25-0260-4D5A-9E30-453DC550FE27}|CozyHaven.MVC\\CozyHaven.MVC.csproj|c:\\cozy haven\\cozyhaven\\cozyhaven.mvc\\cozyhaven.mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{64B99D25-0260-4D5A-9E30-453DC550FE27}|CozyHaven.MVC\\CozyHaven.MVC.csproj|solutionrelative:cozyhaven.mvc\\cozyhaven.mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1D0EFB-23FE-4AB6-B20B-CAE158A43FE5}|DAL\\DAL.csproj|c:\\cozy haven\\cozyhaven\\dal\\models\\main\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1D0EFB-23FE-4AB6-B20B-CAE158A43FE5}|DAL\\DAL.csproj|solutionrelative:dal\\models\\main\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1D0EFB-23FE-4AB6-B20B-CAE158A43FE5}|DAL\\DAL.csproj|c:\\cozy haven\\cozyhaven\\dal\\models\\hotelfacility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1D0EFB-23FE-4AB6-B20B-CAE158A43FE5}|DAL\\DAL.csproj|solutionrelative:dal\\models\\hotelfacility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1D0EFB-23FE-4AB6-B20B-CAE158A43FE5}|DAL\\DAL.csproj|c:\\cozy haven\\cozyhaven\\dal\\models\\main\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1D0EFB-23FE-4AB6-B20B-CAE158A43FE5}|DAL\\DAL.csproj|solutionrelative:dal\\models\\main\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1D0EFB-23FE-4AB6-B20B-CAE158A43FE5}|DAL\\DAL.csproj|c:\\cozy haven\\cozyhaven\\dal\\models\\facility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1D0EFB-23FE-4AB6-B20B-CAE158A43FE5}|DAL\\DAL.csproj|solutionrelative:dal\\models\\facility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\cozy haven\\CozyHaven\\DAL\\Models\\Main\\Booking.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\Main\\Booking.cs",
+              "ToolTip": "C:\\cozy haven\\CozyHaven\\DAL\\Models\\Main\\Booking.cs",
+              "RelativeToolTip": "DAL\\Models\\Main\\Booking.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T10:36:26.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CozyHavenDbContext.cs",
+              "DocumentMoniker": "C:\\cozy haven\\CozyHaven\\DAL\\Context\\CozyHavenDbContext.cs",
+              "RelativeDocumentMoniker": "DAL\\Context\\CozyHavenDbContext.cs",
+              "ToolTip": "C:\\cozy haven\\CozyHaven\\DAL\\Context\\CozyHavenDbContext.cs",
+              "RelativeToolTip": "DAL\\Context\\CozyHavenDbContext.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAcwF8AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T10:32:39.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CozyHavenDbContextFactory.cs",
+              "DocumentMoniker": "C:\\cozy haven\\CozyHaven\\DAL\\Context\\CozyHavenDbContextFactory.cs",
+              "RelativeDocumentMoniker": "DAL\\Context\\CozyHavenDbContextFactory.cs",
+              "ToolTip": "C:\\cozy haven\\CozyHaven\\DAL\\Context\\CozyHavenDbContextFactory.cs",
+              "RelativeToolTip": "DAL\\Context\\CozyHavenDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T10:32:44.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataBaseHelper.cs",
+              "DocumentMoniker": "C:\\cozy haven\\CozyHaven\\DAL\\Context\\DataBaseHelper.cs",
+              "RelativeDocumentMoniker": "DAL\\Context\\DataBaseHelper.cs",
+              "ToolTip": "C:\\cozy haven\\CozyHaven\\DAL\\Context\\DataBaseHelper.cs",
+              "RelativeToolTip": "DAL\\Context\\DataBaseHelper.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwBAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T10:32:48.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IBookingRepository.cs",
+              "DocumentMoniker": "C:\\cozy haven\\CozyHaven\\DAL\\DataAccess\\Interface\\IBookingRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\DataAccess\\Interface\\IBookingRepository.cs",
+              "ToolTip": "C:\\cozy haven\\CozyHaven\\DAL\\DataAccess\\Interface\\IBookingRepository.cs",
+              "RelativeToolTip": "DAL\\DataAccess\\Interface\\IBookingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T08:19:44.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookingRepository.cs",
+              "DocumentMoniker": "C:\\cozy haven\\CozyHaven\\DAL\\DataAccess\\Repositories\\BookingRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\DataAccess\\Repositories\\BookingRepository.cs",
+              "ToolTip": "C:\\cozy haven\\CozyHaven\\DAL\\DataAccess\\Repositories\\BookingRepository.cs",
+              "RelativeToolTip": "DAL\\DataAccess\\Repositories\\BookingRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T10:45:01.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\cozy haven\\CozyHaven\\ServiceLayer\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\Controllers\\BookingController.cs",
+              "ToolTip": "C:\\cozy haven\\CozyHaven\\ServiceLayer\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "ServiceLayer\\Controllers\\BookingController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAD4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T10:48:08.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\cozy haven\\CozyHaven\\ServiceLayer\\Program.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\Program.cs",
+              "ToolTip": "C:\\cozy haven\\CozyHaven\\ServiceLayer\\Program.cs",
+              "RelativeToolTip": "ServiceLayer\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwv4EAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T11:06:42.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CozyHaven.Tests",
+              "DocumentMoniker": "C:\\cozy haven\\CozyHaven\\CozyHaven.Tests\\CozyHaven.Tests.csproj",
+              "RelativeDocumentMoniker": "CozyHaven.Tests\\CozyHaven.Tests.csproj",
+              "ToolTip": "C:\\cozy haven\\CozyHaven\\CozyHaven.Tests\\CozyHaven.Tests.csproj",
+              "RelativeToolTip": "CozyHaven.Tests\\CozyHaven.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-19T12:50:58.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookingControllerTests.cs",
+              "DocumentMoniker": "C:\\cozy haven\\CozyHaven\\CozyHaven.Tests\\Controllers\\BookingControllerTests.cs",
+              "RelativeDocumentMoniker": "CozyHaven.Tests\\Controllers\\BookingControllerTests.cs",
+              "ToolTip": "C:\\cozy haven\\CozyHaven\\CozyHaven.Tests\\Controllers\\BookingControllerTests.cs",
+              "RelativeToolTip": "CozyHaven.Tests\\Controllers\\BookingControllerTests.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwEgAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T11:07:48.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BookingServiceTests.cs",
+              "DocumentMoniker": "C:\\cozy haven\\CozyHaven\\CozyHaven.Tests\\Services\\BookingServiceTests.cs",
+              "RelativeDocumentMoniker": "CozyHaven.Tests\\Services\\BookingServiceTests.cs",
+              "ToolTip": "C:\\cozy haven\\CozyHaven\\CozyHaven.Tests\\Services\\BookingServiceTests.cs",
+              "RelativeToolTip": "CozyHaven.Tests\\Services\\BookingServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T11:08:00.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BookingViewModel.cs",
+              "DocumentMoniker": "C:\\cozy haven\\CozyHaven\\CozyHaven.MVC\\Models\\BookingViewModel.cs",
+              "RelativeDocumentMoniker": "CozyHaven.MVC\\Models\\BookingViewModel.cs",
+              "ToolTip": "C:\\cozy haven\\CozyHaven\\CozyHaven.MVC\\Models\\BookingViewModel.cs",
+              "RelativeToolTip": "CozyHaven.MVC\\Models\\BookingViewModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T11:15:33.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\cozy haven\\CozyHaven\\CozyHaven.MVC\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "CozyHaven.MVC\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\cozy haven\\CozyHaven\\CozyHaven.MVC\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "CozyHaven.MVC\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T09:25:55.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "C:\\cozy haven\\CozyHaven\\ServiceLayer\\Services\\Implementation\\BookingService.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\Services\\Implementation\\BookingService.cs",
+              "ToolTip": "C:\\cozy haven\\CozyHaven\\ServiceLayer\\Services\\Implementation\\BookingService.cs",
+              "RelativeToolTip": "ServiceLayer\\Services\\Implementation\\BookingService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T10:47:48.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IBookingService.cs",
+              "DocumentMoniker": "C:\\cozy haven\\CozyHaven\\ServiceLayer\\Services\\Interfaces\\IBookingService.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\Services\\Interfaces\\IBookingService.cs",
+              "ToolTip": "C:\\cozy haven\\CozyHaven\\ServiceLayer\\Services\\Interfaces\\IBookingService.cs",
+              "RelativeToolTip": "ServiceLayer\\Services\\Interfaces\\IBookingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T10:47:45.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ServiceLayer",
+              "DocumentMoniker": "C:\\cozy haven\\CozyHaven\\ServiceLayer\\ServiceLayer.csproj",
+              "RelativeDocumentMoniker": "ServiceLayer\\ServiceLayer.csproj",
+              "ToolTip": "C:\\cozy haven\\CozyHaven\\ServiceLayer\\ServiceLayer.csproj",
+              "RelativeToolTip": "ServiceLayer\\ServiceLayer.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-19T11:01:18.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IHotelFacilityService.cs",
+              "DocumentMoniker": "C:\\cozy haven\\CozyHaven\\ServiceLayer\\Services\\Interfaces\\IHotelFacilityService.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\Services\\Interfaces\\IHotelFacilityService.cs",
+              "ToolTip": "C:\\cozy haven\\CozyHaven\\ServiceLayer\\Services\\Interfaces\\IHotelFacilityService.cs",
+              "RelativeToolTip": "ServiceLayer\\Services\\Interfaces\\IHotelFacilityService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T11:01:15.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddBooking.cshtml",
+              "DocumentMoniker": "C:\\cozy haven\\CozyHaven\\CozyHaven.MVC\\Views\\Admin\\AddBooking.cshtml",
+              "RelativeDocumentMoniker": "CozyHaven.MVC\\Views\\Admin\\AddBooking.cshtml",
+              "ToolTip": "C:\\cozy haven\\CozyHaven\\CozyHaven.MVC\\Views\\Admin\\AddBooking.cshtml",
+              "RelativeToolTip": "CozyHaven.MVC\\Views\\Admin\\AddBooking.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-13T11:15:39.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BookingByHotelNameRequest.cs",
+              "DocumentMoniker": "C:\\cozy haven\\CozyHaven\\ServiceLayer\\Services\\BookingByHotelNameRequest.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\Services\\BookingByHotelNameRequest.cs",
+              "ToolTip": "C:\\cozy haven\\CozyHaven\\ServiceLayer\\Services\\BookingByHotelNameRequest.cs",
+              "RelativeToolTip": "ServiceLayer\\Services\\BookingByHotelNameRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T11:00:47.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\cozy haven\\CozyHaven\\ServiceLayer\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\cozy haven\\CozyHaven\\ServiceLayer\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ServiceLayer\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T10:43:32.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\cozy haven\\CozyHaven\\ServiceLayer\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ServiceLayer\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\cozy haven\\CozyHaven\\ServiceLayer\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ServiceLayer\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-19T10:43:27.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CozyHavenDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\cozy haven\\CozyHaven\\DAL\\Migrations\\CozyHavenDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\CozyHavenDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\cozy haven\\CozyHaven\\DAL\\Migrations\\CozyHavenDbContextModelSnapshot.cs",
+              "RelativeToolTip": "DAL\\Migrations\\CozyHavenDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAA8BAAAAAAAAAAAkwLoBAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T10:39:40.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20250803143717_InitialCreate.cs",
+              "DocumentMoniker": "C:\\cozy haven\\CozyHaven\\DAL\\Migrations\\20250803143717_InitialCreate.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\20250803143717_InitialCreate.cs",
+              "ToolTip": "C:\\cozy haven\\CozyHaven\\DAL\\Migrations\\20250803143717_InitialCreate.cs",
+              "RelativeToolTip": "DAL\\Migrations\\20250803143717_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T10:39:37.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CozyHaven.MVC.csproj",
+              "DocumentMoniker": "C:\\cozy haven\\CozyHaven\\CozyHaven.MVC\\CozyHaven.MVC.csproj",
+              "RelativeDocumentMoniker": "CozyHaven.MVC\\CozyHaven.MVC.csproj",
+              "ToolTip": "C:\\cozy haven\\CozyHaven\\CozyHaven.MVC\\CozyHaven.MVC.csproj",
+              "RelativeToolTip": "CozyHaven.MVC\\CozyHaven.MVC.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-13T11:15:21.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IFacilityRepository.cs",
+              "DocumentMoniker": "C:\\cozy haven\\CozyHaven\\DAL\\DataAccess\\Interface\\IFacilityRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\DataAccess\\Interface\\IFacilityRepository.cs",
+              "ToolTip": "C:\\cozy haven\\CozyHaven\\DAL\\DataAccess\\Interface\\IFacilityRepository.cs",
+              "RelativeToolTip": "DAL\\DataAccess\\Interface\\IFacilityRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T10:44:54.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ServiceLayer.csproj",
+              "DocumentMoniker": "C:\\cozy haven\\CozyHaven\\ServiceLayer\\ServiceLayer.csproj",
+              "RelativeDocumentMoniker": "ServiceLayer\\ServiceLayer.csproj",
+              "ToolTip": "C:\\cozy haven\\CozyHaven\\ServiceLayer\\ServiceLayer.csproj",
+              "RelativeToolTip": "ServiceLayer\\ServiceLayer.csproj",
+              "ViewState": "AgIAABAAAADAb3Fas70qwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-17T13:28:35.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\cozy haven\\CozyHaven\\DAL\\Models\\Main\\Payment.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\Main\\Payment.cs",
+              "ToolTip": "C:\\cozy haven\\CozyHaven\\DAL\\Models\\Main\\Payment.cs",
+              "RelativeToolTip": "DAL\\Models\\Main\\Payment.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T10:43:58.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Hotel.cs",
+              "DocumentMoniker": "C:\\cozy haven\\CozyHaven\\DAL\\Models\\Main\\Hotel.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\Main\\Hotel.cs",
+              "ToolTip": "C:\\cozy haven\\CozyHaven\\DAL\\Models\\Main\\Hotel.cs",
+              "RelativeToolTip": "DAL\\Models\\Main\\Hotel.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAA7wCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T10:34:02.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "HotelFacility.cs",
+              "DocumentMoniker": "C:\\cozy haven\\CozyHaven\\DAL\\Models\\HotelFacility.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\HotelFacility.cs",
+              "ToolTip": "C:\\cozy haven\\CozyHaven\\DAL\\Models\\HotelFacility.cs",
+              "RelativeToolTip": "DAL\\Models\\HotelFacility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T10:33:10.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Facility.cs",
+              "DocumentMoniker": "C:\\cozy haven\\CozyHaven\\DAL\\Models\\Facility.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\Facility.cs",
+              "ToolTip": "C:\\cozy haven\\CozyHaven\\DAL\\Models\\Facility.cs",
+              "RelativeToolTip": "DAL\\Models\\Facility.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T10:33:05.983Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
